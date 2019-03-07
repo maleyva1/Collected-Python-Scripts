@@ -1,3 +1,9 @@
+# Original Author: Mark Leyva, 2019
+#
+# This scripts pulls the latest Weekly Shounen Jump Rankings
+# from https://weeklyjump.livejournal.com/ and saves them in
+# a CSV file
+
 import requests
 from bs4 import BeautifulSoup
 import re
